@@ -1,0 +1,27 @@
+<h1><center><u>Objective Questions List</u></center></h1>
+
+<table>
+    <tr>
+        <th> ID</th>
+        <th>Question</th>
+        <th>Option A</th>
+        <th>Option B </th>
+        <th>Option C</th>
+        <th>Option D</th>     
+        <th>Answer ID</th>     
+        <th>Explaination</th>            
+    </tr>
+    {{#each data}}
+    <tr>
+        <td style="padding-right: 30px">{{this.id}}</td>    
+         <td style="padding-right: 30px">{{this.question}}</td>
+        <td style="padding-right: 30px">{{this.optionA}}</td>
+        <td style="padding-right: 30px">{{this.optionB}}</td>
+        <td style="padding-right: 30px">{{this.optionC}}</td>    
+        <td style="padding-right: 30px">{{this.optionD}}</td>
+        <td style="padding-right: 30px">{{this.answerId}}</td>
+        <td style="padding-right: 30px">{{this.explaination}}</td>
+    </tr>
+    {{/each}}
+</table>
+
